@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square_Coord_Cal", "Square_Coord_Cal.csproj", "{B5CD3F97-026A-4061-9197-E1016B253DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatLngTest", "LatLngTest\LatLngTest.csproj", "{8F232724-5AEB-4964-B0A4-7F5E37FE216B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B5CD3F97-026A-4061-9197-E1016B253DF2} = {B5CD3F97-026A-4061-9197-E1016B253DF2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5CD3F97-026A-4061-9197-E1016B253DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CD3F97-026A-4061-9197-E1016B253DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CD3F97-026A-4061-9197-E1016B253DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CD3F97-026A-4061-9197-E1016B253DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F232724-5AEB-4964-B0A4-7F5E37FE216B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F232724-5AEB-4964-B0A4-7F5E37FE216B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F232724-5AEB-4964-B0A4-7F5E37FE216B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F232724-5AEB-4964-B0A4-7F5E37FE216B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
