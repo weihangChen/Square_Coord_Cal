@@ -10,20 +10,6 @@ namespace LatLngTest
     {
 
 
-        //[TestMethod]
-        public void SameAsSTDistance()
-        {
-            //DECLARE @g geography;
-            //DECLARE @h geography;
-            //SET @g = geography::STGeomFromText('POINT(-118.291994 36.578581)', 4326);
-            //SET @h = geography::STGeomFromText('POINT(-116.83171 36.23998)', 4326);
-            //SELECT @g.STDistance(@h);
-            //RESULT SHOULD BE 136261,875853806
-            var compared_value = 135994.01790639554;
-            var distance = BusinessLogic.DistanceBetweenPlaces(-118.291994, 36.578581, -116.83171, 36.23998);
-
-        }
-
         [TestMethod]
         public void GetLngTest()
         {
